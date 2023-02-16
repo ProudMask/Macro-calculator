@@ -1,8 +1,8 @@
-#Macro and Calorie Calculator
+# Macro and Calorie Calculator
 
 This is a simple program written in Python that calculates your macros and calories based on your weight, age, gender, and activity level.
 
-##Method
+## Method
 
 The program uses the Harris-Benedict equation to calculate your basal metabolic rate (BMR), which is the number of calories your body burns at rest. The equation takes into account your weight, age, and gender:
 
@@ -22,7 +22,7 @@ Once your BMR is calculated, the program then multiplies it by a factor based on
 - Fat: 25% of calories from fat, 9 calories per gram of fat
 - Carbs: remaining calories from carbs, 4 calories per gram of carb
 
-##Usage
+## Usage
 
 To use the program, simply run the Python script and follow the prompts to enter your weight, age, gender, and activity level. The program will then calculate your macro and calorie needs and print the results to the console.
 ```
@@ -31,5 +31,5 @@ Copy code
 python macro_calculator.py
 ```
 
-##Contributing
+## Contributing
 If you have any suggestions or improvements for the program, feel free to open an issue or submit a pull request.
